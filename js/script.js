@@ -2,4 +2,8 @@ let nome = prompt("Ciao, Inserisci il tuo Nome")
 let cognome = prompt("Inserisci il tuo Cognome")
 let colorePreferito = prompt("Adesso inserisci il tuo colore preferito")
 
-console.log(nome + cognome + colorePreferito + 22);
+let passwordSegretissima = nome + cognome + colorePreferito;
+
+console.log(passwordSegretissima);
+
+document.getElementById('password').innerHTML = ("C:\Boolean\Password_Segretissima> La tua password a prova di hacker è " + passwordSegretissima +22)
