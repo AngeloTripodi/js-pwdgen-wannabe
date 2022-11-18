@@ -5,13 +5,13 @@ body{
 
 p{
     color: #00f900;
-    padding: 7rem 1rem;
+    padding: 7rem 3rem;
 }
 
 #prompt{
     background-image: url(../img/prompt.png);
-    height: 424px;
-    width: 500px;
+    min-height: 424px;
+    min-width: 500px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
