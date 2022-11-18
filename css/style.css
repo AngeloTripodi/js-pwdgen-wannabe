@@ -5,5 +5,19 @@ body{
 
 p{
     color: #00f900;
+    padding: 7rem 1rem;
 }
 
+#prompt{
+    background-image: url(../img/prompt.png);
+    height: 424px;
+    width: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15rem;
+}
+
+.first-section{
+    
+}
